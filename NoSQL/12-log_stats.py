@@ -8,10 +8,10 @@ if __name__ == "__main__":
     collection = client.logs.nginx
 
     total = collection.count_documents({})
-    print(f"{total} logs")
+    print("{} logs".format(total))
     print("Methods:")
     for method in ["GET", "POST", "PUT", "PATCH", "DELETE"]:
         count = collection.count_documents({"method": method})
-        print(f"\tmethod {method}: {count}")
+        print("\tmethod {}: {}".format(method, count))
     status_count = collection.count_documents({"method": "GET", "path": "/status"})
-    print(f"{status_count} status check")
+    print("{} status check".format(status_count))
