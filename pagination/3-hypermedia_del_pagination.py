@@ -38,7 +38,11 @@ class Server:
         if index is None:
             index = 0
 
-        assert type(index) is int and index >= 0 and index < len(self.dataset())
+        assert (
+            type(index) is int and
+            index >= 0 and
+            index < len(self.dataset())
+        )
         assert type(page_size) is int and page_size > 0
 
         indexed_data = self.indexed_dataset()
