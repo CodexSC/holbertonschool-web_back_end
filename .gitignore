@@ -19,3 +19,15 @@ Pagination_NoSQL_Quick_Revision.pdf
 Pagination_NoSQL_Concept_Diagrams.md
 Pagination_NoSQL_Concept_Diagrams.odt
 Pagination_NoSQL_Concept_Diagrams.pdf
+ES6_basic/package-lock.json
+
+# Non-critical exercise files
+__pycache__/
+*.pyc
+.venv/
+.env
+.vscode/
+*.csv
+*.odt
+*.pdf
+node_modules/
