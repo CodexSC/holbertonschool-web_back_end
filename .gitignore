@@ -31,3 +31,4 @@ __pycache__/
 *.odt
 *.pdf
 node_modules/
+ES6_basic/nodesource_setup.sh
