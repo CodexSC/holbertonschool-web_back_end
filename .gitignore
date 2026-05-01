@@ -33,3 +33,9 @@ __pycache__/
 node_modules/
 ES6_basic/nodesource_setup.sh
 ES6_basic/ES6_exercises_concepts.md
+ES6_classes/.eslintrc.js
+ES6_classes/package-lock.json
+.gitignore
+.gitignore
+ES6_classes/babel.config.js
+.gitignore
