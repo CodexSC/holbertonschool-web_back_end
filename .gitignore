@@ -39,3 +39,9 @@ ES6_classes/package-lock.json
 .gitignore
 ES6_classes/babel.config.js
 .gitignore
+ES6_data_manipulation/1-main.js
+ES6_data_manipulation/babel.config.js
+ES6_data_manipulation/package-lock.json
+ES6_data_manipulation/package.json
+ES6_data_manipulation/.eslint.js
+ES6_data_manipulation/2-main.js
