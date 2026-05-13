@@ -51,3 +51,11 @@ ES6_promise/nodesource_setup.sh
 ES6_promise/package-lock.json
 ES6_promise/package.json
 ES6_promise/utils.js
+Node_JS_basic/babel.config.js
+.gitignore
+Node_JS_basic/package.json
+.gitignore
+Node_JS_basic/2-main_1.js
+Node_JS_basic/2-main.js
+Node_JS_basic/.eslintrc.js
+Node_JS_basic/package-lock.json
