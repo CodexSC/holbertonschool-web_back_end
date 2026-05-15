@@ -3,7 +3,7 @@ import fs from 'fs';
 const readDatabase = (path) => new Promise((resolve, reject) => {
   fs.readFile(path, 'utf-8', (error, data) => {
     if (error) {
-      reject(error);
+      reject(new Error('Cannot load the database'));
       return;
     }
 
